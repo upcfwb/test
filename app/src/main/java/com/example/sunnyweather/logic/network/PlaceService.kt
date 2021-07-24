@@ -8,7 +8,7 @@ import retrofit2.http.Query
 
 
 /**
- * 城市数据接口
+ * 城市数据接口Service
  */
 interface PlaceService {
     /**

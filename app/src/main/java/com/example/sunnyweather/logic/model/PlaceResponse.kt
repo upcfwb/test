@@ -17,4 +17,4 @@ data class Place(val name : String ,val location : Location, @SerializedName("fo
 /**
  * 坐标数据类
  */
-data class Location(val lat : String , val lng : List<Place>)
+data class Location(val lat : String , val lng : String)
